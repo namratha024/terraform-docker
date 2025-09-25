@@ -18,9 +18,10 @@ resource "docker_image" "nginx_image" {
 # Run nginx container
 resource "docker_container" "nginx_container" {
   name  = "nginx_server"
-  image = docker_image.nginx_image.latest
+  image = docker_image.nginx_image.image_id
   ports {
     internal = 80
-    external = 8080
+    external = 8081
   }
 }
+
