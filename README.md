@@ -76,3 +76,6 @@ Nginx page in browser
 terraform state list
 
 terraform destroy
+
+<img width="1343" height="125" alt="docker ps" src="https://github.com/user-attachments/assets/1a95e3be-650b-4bc2-bc78-6d3a0511be92" />
+
